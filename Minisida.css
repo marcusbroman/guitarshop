@@ -44,8 +44,10 @@ nav li a:hover {
   background-color: #111;
   }
 footer{
-  height: 15%;
+
   background-color: #333;
+  border-color: orangered;
+  border-style: solid;
 }
 
 .fa-brands fa-brands fa-twitter{
@@ -71,7 +73,58 @@ footer{
 .fa-facebook{
   color: white;
 }
-div{
+.social-media{
   padding-top: 1%;
   padding-left: 38%;
+}
+
+.block{
+  display: flex;
+  overflow: hidden;
+  float: left;
+  width:100%;
+  overflow: hidden;
+}
+
+.block .Frontpageimage{
+
+ width: 50%;
+  background-color: #333;
+  border: orangered;
+  border-style: solid;
+}
+
+.frontpageimage img{
+    width:38.7%;
+    height:95%;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+}
+
+.block .Frontpagetext{
+
+
+  width:49%;
+  background-color: gray;
+  border: orangered;
+  border-style: solid;
+}
+
+.products{
+  height: 30%;
+  width: 100%;
+  display:flex;
+  background-image: url("wood.jpg");
+}
+
+.product1 img{
+  margin-top: 5%;
+  margin-left: 5%;
+  border-color: orangered;
+  border-style: solid;
+  height: 90%;
+  width: 130%;
 }
