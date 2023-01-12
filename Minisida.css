@@ -10,7 +10,8 @@ header{
     background-image: url("wood.jpg");
 }
 
-h1{
+header h1{
+    color: aliceblue;
     padding-top: 1.5%;
     text-align: center;
     font-family:"Bradley Hand", sans-serif;
@@ -87,8 +88,7 @@ footer{
 }
 
 .block .Frontpageimage{
-
- width: 50%;
+  width: 50%;
   background-color: #333;
   border: orangered;
   border-style: solid;
@@ -105,26 +105,123 @@ footer{
 }
 
 .block .Frontpagetext{
-
-
-  width:49%;
+  width:50%;
   background-color: gray;
-  border: orangered;
+  border-color: orangered;
   border-style: solid;
 }
 
 .products{
+  position: relative;
   height: 30%;
   width: 100%;
   display:flex;
   background-image: url("wood.jpg");
+  border-color: orangered;
+  border-style: solid;
+  overflow: hidden;
+}
+
+.producttext{
+  background-color: #333;
+  border-color: orangered;
+  border-style: solid;
+  font-size: 50px;
+  text-align: center;
 }
 
 .product1 img{
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 60%;
+  border-radius: 1%;
   border-color: orangered;
   border-style: solid;
   height: 90%;
-  width: 130%;
+  width: 90%;
+}
+
+
+.product2 img{
+  margin-top: 5%;
+  margin-left: 120%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 90%;
+  width: 90%;
+}
+
+.product3 img{
+  margin-top: 5%;
+  margin-left: 180%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 90%;
+  width: 90%;
+}
+
+.product3{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.product3text{
+  position: absolute;
+  bottom: 10%;
+  left: 200%;
+  width: 50%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.products a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.product3text:hover{
+  opacity: 1;
+}
+
+.product2{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.product2text{
+  position: absolute;
+  bottom: 10%;
+  left: 145%;
+  width: 50%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.product2text:hover{
+  opacity: 1;
+}
+
+.product1{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.product1text{
+  position: absolute;
+  bottom: 10%;
+  left: 145%;
+  width: 50%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.product1text:hover{
+  opacity: 1;
 }
