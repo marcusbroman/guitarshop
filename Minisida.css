@@ -15,7 +15,7 @@ header h1{
     padding-top: 1.5%;
     text-align: center;
     font-family:"Bradley Hand", sans-serif;
-    font-size: 50px;
+    font-size: 300%;
 }
 
 nav ul{
@@ -35,7 +35,7 @@ nav li {
       
 nav li a {
   display: block;
-  color: white;
+  color: aliceblue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,32 +51,50 @@ footer{
   border-style: solid;
 }
 
-.fa-brands fa-brands fa-twitter{
-  color:white;
-  margin-top: 10px;
-  padding-top: 10px;
-  font-size: 10px;
+.fa-youtube{
+  padding-left: 0%;
+  color: white;
+  font-size: 1%;
 }
 
-.fa-youtube{
-  color: white;
+.fa-youtube:hover{
+  color:#FF0000;
 }
 
 .fa-twitter{
   color: white;
+  padding-left: 0%;
+  font-size: 1%;
+}
 
+.fa-twitter:hover{
+  color:#1DA1F2;
 }
 
 .fa-instagram{
+  padding-left: 0%;
   color: white;
+  font-size: 1%;
+}
+
+.fa-instagram:hover{
+  background-image: linear-gradient(#feda75 , #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
 
 .fa-facebook{
+  padding-left: 0%;
   color: white;
+  font-size: 1%;
 }
+
+.fa-facebook:hover{
+  color: #3b5998;
+}
+
 .social-media{
   padding-top: 1%;
-  padding-left: 38%;
+  padding-left: 40%;
+  padding-bottom: 1%;
 }
 
 .block{
@@ -113,26 +131,35 @@ footer{
 
 .products{
   position: relative;
-  height: 30%;
+  height: 40%;
   width: 100%;
   display:flex;
   background-image: url("wood.jpg");
   border-color: orangered;
   border-style: solid;
-  overflow: hidden;
+  overflow: auto;
+}
+
+.products a{
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .producttext{
   background-color: #333;
   border-color: orangered;
   border-style: solid;
-  font-size: 50px;
+  font-size: 200%;
   text-align: center;
+  margin-left: 6%;
+  margin-top: 1%;
+  width: 25%;
+  height: 30%;
 }
 
 .product1 img{
   margin-top: 5%;
-  margin-left: 60%;
+  margin-left: 0%;
   border-radius: 1%;
   border-color: orangered;
   border-style: solid;
@@ -143,7 +170,7 @@ footer{
 
 .product2 img{
   margin-top: 5%;
-  margin-left: 120%;
+  margin-left: 30%;
   border-radius: 1%;
   border-color: orangered;
   border-style: solid;
@@ -153,7 +180,7 @@ footer{
 
 .product3 img{
   margin-top: 5%;
-  margin-left: 180%;
+  margin-left: 10%;
   border-radius: 1%;
   border-color: orangered;
   border-style: solid;
@@ -161,28 +188,33 @@ footer{
   width: 90%;
 }
 
-.product3{
+.product4 img{
+  margin-top: 5%;
+  margin-left: 10%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 90%;
+  width: 90%;
+}
+
+.product4{
   position: relative;
   text-align: center;
   color: aliceblue;
 }
 
-.product3text{
+.product4text{
   position: absolute;
   bottom: 10%;
-  left: 200%;
+  left: 30%;
   width: 50%;
   background-color: #333;
   opacity: 0;
   transition: ease-in-out 0.5s;
 }
 
-.products a{
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.product3text:hover{
+.product4text:hover{
   opacity: 1;
 }
 
@@ -195,16 +227,20 @@ footer{
 .product2text{
   position: absolute;
   bottom: 10%;
-  left: 145%;
+  left: 50%;
   width: 50%;
   background-color: #333;
   opacity: 0;
   transition: ease-in-out 0.5s;
 }
 
+
+
 .product2text:hover{
   opacity: 1;
 }
+
+
 
 .product1{
   position: relative;
@@ -215,7 +251,7 @@ footer{
 .product1text{
   position: absolute;
   bottom: 10%;
-  left: 145%;
+  left: 22%;
   width: 50%;
   background-color: #333;
   opacity: 0;
@@ -223,5 +259,161 @@ footer{
 }
 
 .product1text:hover{
+  opacity: 1;
+}
+
+.product3{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.product3text{
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  width: 50%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.product3text:hover{
+  opacity: 1;
+}
+
+.Shopmenu {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #333;
+  border-color: orangered;
+  border-style: solid;
+}
+
+.Shopmenu li a {
+  display: block;
+  color: aliceblue;
+  padding: 8px 16px;
+  width: auto;
+  text-decoration: none;
+}
+
+.Shopmenu li a:hover {
+  background-color: #111;
+  color: aliceblue;
+}
+
+.shop{
+  background-image: url("wood.jpg");
+  height: 100%;
+}
+
+.shopproducts{
+  position: relative;
+  height: 30%;
+  width: 100%;
+  display:flex;
+  overflow: auto;
+}
+
+.shopproducts a{
+  text-decoration: none;
+  color: aliceblue;
+  width: -1000%;
+}
+
+.shopproduct1 img{
+
+  margin-top: 0%;
+  margin-left: 120%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 95%;
+  width: 95%;
+}
+
+.shopproducts1{
+  margin-top: -100%;
+  float: left;
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.shopproduct1text{
+  position: absolute;
+  bottom: 10%;
+  left: 21%;
+  width: 6%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.shopproduct1text:hover{
+  opacity: 1;
+}
+
+.shopproduct2 img{
+  margin-top: 0%;
+  margin-left: 210%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 95%;
+  width: 95%;
+}
+
+.shopproducts2{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.shopproduct2text{
+  position: absolute;
+  bottom: 10%;
+  left: 49%;
+  width: 6%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.shopproduct2text:hover{
+  opacity: 1;
+}
+
+.shopproduct4 img{
+  margin-top: 0%;
+  margin-left: 300%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
+  height: 95%;
+  width: 95%;
+}
+
+.shopproducts4{
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+
+.shopproduct4text{
+  position: absolute;
+  bottom: 10%;
+  left: 76%;
+  width: 6%;
+  background-color: #333;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.shopproduct4text:hover{
   opacity: 1;
 }
