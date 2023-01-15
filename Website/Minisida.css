@@ -7,7 +7,7 @@ body{
 
 header{
     height: 15%;
-    background-image: url("wood.jpg");
+    background-image: url("Other images/wood.jpg");
 }
 
 header h1{
@@ -134,7 +134,7 @@ footer{
   height: 40%;
   width: 100%;
   display:flex;
-  background-image: url("wood.jpg");
+  background-image: url("Other images/wood.jpg");
   border-color: orangered;
   border-style: solid;
   overflow: auto;
@@ -307,7 +307,7 @@ footer{
 }
 
 .shop{
-  background-image: url("wood.jpg");
+  background-image: url("Other\ images/wood.jpg");
   height: 100%;
 }
 
@@ -416,4 +416,9 @@ footer{
 
 .shopproduct4text:hover{
   opacity: 1;
+}
+
+img{
+  color: black;
+  background-color: #333;
 }
