@@ -2,15 +2,26 @@
 
     <head>
 
+        <meta name="viewport" content="width=device-width, intial-scale=1">
         <link rel="stylesheet" href="Minisida.css">
         <script src="https://kit.fontawesome.com/38ab188424.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="Other images/guitaricon.png" type="image/x-icon">
-
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+          </script>
 
 
     </head>
 
     <body id="Home">
+
 
         <header>
             
@@ -20,20 +31,39 @@
 
         </header>
         
+
+
         <nav>
+    
 
-            <ul class="Navbar">
-                <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="Electric.html">Shop</a></li>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Home.html">Home</a></li>
-                <li class="search">
-                    <form>
-                        <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
-                    </form>
-                </li>
+            <div class="mobilenav">
+                <a href="#home" class="active">Marcus' Guitar Shop</a>
+                <div id="myLinks">
+                    <a href="Home.html">Home</a>
+                    <a href="Electric.html">Shop</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
 
-            </ul>
+            <div class="computernav">
+                <ul class="Navbar">
+                    <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="Electric.html">Shop</a></li>
+                    <li class="search">
+                        <form>
+                            <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+                        </form>
+                    </li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </ul>
+            </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            
 
 
         </nav>
@@ -54,10 +84,24 @@
 
             <div class="Frontpagetext">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Pharetra massa massa ultricies mi quis hendrerit dolor magna. In mollis nunc sed id semper risus in. Tempus imperdiet nulla malesuada pellentesque elit eget. Consequat nisl vel pretium lectus quam id leo in. Auctor elit sed vulputate mi sit amet mauris. Amet dictum sit amet justo donec enim diam. Pellentesque nec nam aliquam sem et. Porttitor massa id neque aliquam vestibulum morbi blandit cursus.
-
-                    Est sit amet facilisis magna etiam tempor orci. Interdum consectetur libero id faucibus. Sit amet massa vitae tortor condimentum. Egestas dui id ornare arcu odio. Sit amet luctus venenatis lectus magna fringilla urna porttitor. Lorem sed risus ultricies tristique nulla. Diam in arcu cursus euismod. Sagittis nisl rhoncus mattis rhoncus urna neque. Euismod lacinia at quis risus sed vulputate odio. Facilisi nullam vehicula ipsum a arcu cursus vitae. Dui ut ornare lectus sit. Sed augue lacus viverra vitae congue eu consequat ac. Sit amet nulla facilisi morbi tempus iaculis urna id.
-                    
+                <p>As a company made up of musicians and music lovers, we're driven by our shared belief
+                    <br>
+                    that music is the greatest unifying force in the world.
+                    <br>
+                    <br>
+                    And that idea fuels our mission to fill the world with music.
+                    <br>
+                    To give people the tools they need to create and connect. To be seen and heard.
+                    <br>
+                    <br>
+                    And recently, to help and to heal.
+                    <br>
+                    <br>
+                    Music can stir the soul and change the frequency of the planet. So let's make some noise.
+                    <br>
+                    <br>
+                    Because the world needs to hear what you have to play.
+                </p>
                     
             </div>
         </div>
@@ -107,10 +151,10 @@
         <footer>
 
             <div class="social-media">
-                <a href="https://twitter.com/Sveriges_Konung"><i class="fa-brands fa-twitter fa-5x" ></i></a>
-                <a href="https://www.youtube.com/watch?v=GL3hh5mmlZI"><i class="fa-brands fa-youtube fa-5x"></i></a>
-                <a href="https://www.instagram.com/kungahuset/"><i class="fa-brands fa-instagram fa-5x"></i></a>
-                <a href="https://www.facebook.com/Kungahuset/"><i class="fa-brands fa-facebook fa-5x"></i></a>
+                <a href="https://twitter.com/Sveriges_Konung"><i class="fa-brands fa-twitter" ></i></a>
+                <a href="https://www.youtube.com/watch?v=GL3hh5mmlZI"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/kungahuset/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Kungahuset/"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </footer>
     

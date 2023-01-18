@@ -1,506 +1,1067 @@
 @import url("https://fonts.cdnfonts.com/css/bradley-hand-2");
 
 body{
-    margin:0;
-    padding:0;
-    color:aliceblue;
-    overflow-x: hidden;
+  margin:0;
+  padding:0;
+  color:aliceblue;
+  overflow-x: hidden;
+  height: auto;
 }
 
-#home{
-  background-color: #333;
+.mobilenav{
+  opacity:0;
+  margin-top: -10%;
 }
+
+.computernav{
+  margin-top: 5%;
+}
+
+.icon{
+  opacity: 0;
+}
+
+
 
 header{
-    height: 15%;
-    background-image: url("Other images/wood.jpg");
+  height: 15%;
+  background-image: url("Other images/wood.jpg");
 }
 
 header h1{
-    color: aliceblue;
-    padding-top: 1.5%;
-    text-align: center;
-    font-family:"Bradley Hand", sans-serif;
-    font-size: 300%;
+  color: aliceblue;
+  padding-top: 1.5%;
+  text-align: center;
+  font-family:"Bradley Hand", sans-serif;
+  font-size: 300%;
 }
 
 nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  
-  border-style: solid;
-  border-color: orangered;
-  }
-  
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+border-style: solid;
+border-color: orangered;
+}
+
 nav li {
-  float: left;
-  }
-      
+float: left;
+}
+    
 nav li a {
-  display: block;
-  color: aliceblue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  }
-      
+display: block;
+color: aliceblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+    
 nav li a:hover {
-  background-color: #111;
-  }
+background-color: #111;
+}
 footer{
 
-  background-color: #333;
-  border-color: orangered;
-  border-style: solid;
+background-color: #333;
+border-color: orangered;
+border-style: solid;
 }
 
 .fa-youtube{
-  padding-left: 0%;
-  color: white;
-  font-size: 1%;
+padding-left: 0%;
+color: white;
+font-size: 400%;
 }
 
 .fa-youtube:hover{
-  color:#FF0000;
+color:#FF0000;
 }
 
 .fa-twitter{
-  color: white;
-  padding-left: 0%;
-  font-size: 1%;
+color: white;
+padding-left: 0%;
+font-size: 400%;
 }
 
 .fa-twitter:hover{
-  color:#1DA1F2;
+color:#1DA1F2;
 }
 
 .fa-instagram{
-  padding-left: 0%;
-  color: white;
-  font-size: 1%;
+padding-left: 0%;
+color: white;
+font-size: 400%;
 }
 
 .fa-instagram:hover{
-  background-image: linear-gradient(#feda75 , #fa7e1e, #d62976, #962fbf, #4f5bd5);
+background-image: linear-gradient(#feda75 , #fa7e1e, #d62976, #962fbf, #4f5bd5);
 }
 
 .fa-facebook{
-  padding-left: 0%;
-  color: white;
-  font-size: 1%;
+padding-left: 0%;
+color: white;
+font-size: 400%;
 }
 
 .fa-facebook:hover{
-  color: #3b5998;
+color: #3b5998;
 }
 
 .social-media{
-  padding-top: 1%;
-  padding-left: 40%;
-  padding-bottom: 1%;
+padding-top: 1%;
+padding-left: 40%;
+padding-bottom: 1%;
 }
 
 .block{
-  display: flex;
-  overflow: hidden;
-  float: left;
-  width:100%;
-  overflow: hidden;
+display: flex;
+overflow: hidden;
+float: left;
+width:100%;
+overflow: hidden;
+background-color: #333;
 }
 
 .block .Frontpageimage{
-  width: 42%;
-  background-color: #333;
-  border-right: orangered;
-  border-left: #333;
-  border-top:#333;
-  border-bottom: #333;
-  border-style: solid;
+width: 42%;
+background-color: #333;
+border-right: orangered;
+border-left: #333;
+border-top:#333;
+border-bottom: #333;
+border-style: solid;
 }
 
 .frontpageimage img{
-    width: 38.7%;
-    height: 95%;
-    margin-left: 30%;
-    margin-top: 2%;
-    border-radius: 1%;
-    border-color: orangered;
-    border-style: solid;
+  width: 38.7%;
+  height: 95%;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 1%;
+  border-color: orangered;
+  border-style: solid;
 }
 
 .block .Frontpagetext{
-  width: 50%;
-  background-color: gray;
-  border-right: orangered;
-  border-top: gray;
-  border-bottom: gray;
-  border-left: orangered;
-  border-style: solid;
+text-align: center;
+font-size: 200%;
+width: 50%;
+background-color: gray;
+border-right: orangered;
+border-top: gray;
+border-bottom: gray;
+border-left: orangered;
+border-style: solid;
 }
 
 .block .information{
-  border-top: orangered;
-  background-color: #111;
-  border-color: orangered;
-  border-radius: 1%;
-  border-style: solid;
-  text-align: center;
-  margin-left: 2%;
-  margin-top: 35%;
-  height: 15%;
-  width: 8%;
-  animation-duration: 5s;
-  animation: blink-animation 3s steps(5, start) infinite;
-  -webkit-animation: blink-animation 3s steps(5, start) infinite;
+border-top: orangered;
+background-color: #111;
+border-color: orangered;
+border-radius: 1%;
+border-style: solid;
+text-align: center;
+margin-left: 2%;
+margin-top: 35%;
+height: 15%;
+width: 8%;
+animation-duration: 5s;
+animation: blink-animation 3s steps(5, start) infinite;
+-webkit-animation: blink-animation 3s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+to {
+  visibility: hidden;
+}
+}
+@-webkit-keyframes blink-animation {
+to {
+  visibility: hidden;
+}
+}
+
+.productinformation{
+border-top: orangered;
+background-color: #111;
+border-color: orangered;
+border-radius: 1%;
+border-style: solid;
+text-align: center;
+margin-left: 20%;
+margin-top: 2%;
+height: 15%;
+width: 8%;
+animation-duration: 5s;
+animation: blink-animation 3s steps(5, start) infinite;
+-webkit-animation: blink-animation 3s steps(5, start) infinite;
 }
 @keyframes blink-animation {
   to {
     visibility: hidden;
   }
-}
-@-webkit-keyframes blink-animation {
+  }
+  @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
   }
-}
-
-.productinformation{
-  border: orangered;
-  background-color: #111;
-  border-color: orangered;
-  border-style: solid;
-  text-align: center;
-  margin-left: 20%;
-  margin-top: 2%;
-  height: 9%;
-  width: 8%;
-  animation-duration: 5s;
-  animation: blink-animation 3s steps(5, start) infinite;
-  -webkit-animation: blink-animation 3s steps(5, start) infinite;
-}
+  }
 
 .products{
-  position: relative;
-  height: 40%;
-  width: 100%;
-  display:flex;
-  background-image: url("Other images/wood.jpg");
-  border-color: orangered;
-  border-style: solid;
-  overflow: auto;
+position: relative;
+height: 40%;
+width: 100%;
+display:flex;
+background-image: url("Other images/wood.jpg");
+border-color: orangered;
+border-style: solid;
+overflow: auto;
 }
 
 .products a{
-  text-decoration: none;
-  color: aliceblue;
+text-decoration: none;
+color: aliceblue;
 }
 
 .producttext{
-  background-color: #333;
-  border-color: orangered;
-  border-style: solid;
-  font-size: 200%;
-  text-align: center;
-  margin-left: 6%;
-  margin-top: 1%;
-  width: 25%;
-  height: 30%;
+background-color: #333;
+border-color: orangered;
+border-style: solid;
+font-size: 200%;
+text-align: center;
+margin-left: 6%;
+margin-top: 1%;
+width: 25%;
+height: 30%;
 }
 
 .product1 img{
-  margin-top: 5%;
-  margin-left: 0%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 90%;
-  width: 90%;
+margin-top: 5%;
+margin-left: 0%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 90%;
+width: 90%;
 }
 
 
 .product2 img{
-  margin-top: 5%;
-  margin-left: 30%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 90%;
-  width: 90%;
+margin-top: 5%;
+margin-left: 30%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 90%;
+width: 90%;
 }
 
 .product3 img{
-  margin-top: 5%;
-  margin-left: 10%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 90%;
-  width: 90%;
+margin-top: 5%;
+margin-left: 10%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 90%;
+width: 90%;
 }
 
 .product4 img{
-  margin-top: 5%;
-  margin-left: 10%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 90%;
-  width: 90%;
+margin-top: 5%;
+margin-left: 10%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 90%;
+width: 90%;
 }
 
 .product4{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+position: relative;
+text-align: center;
+color: aliceblue;
 }
 
 .product4text{
-  position: absolute;
-  bottom: 10%;
-  left: 30%;
-  width: 50%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 10%;
+left: 30%;
+width: 50%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .product4text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 .product2{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+position: relative;
+text-align: center;
+color: aliceblue;
 }
 
 .product2text{
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  width: 50%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 10%;
+left: 50%;
+width: 50%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 
 
 .product2text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 
 
 .product1{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+position: relative;
+text-align: center;
+color: aliceblue;
 }
 
 .product1text{
-  position: absolute;
-  bottom: 10%;
-  left: 22%;
-  width: 50%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 10%;
+left: 22%;
+width: 50%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .product1text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 .product3{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+position: relative;
+text-align: center;
+color: aliceblue;
 }
 
 .product3text{
-  position: absolute;
-  bottom: 10%;
-  left: 30%;
-  width: 50%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 10%;
+left: 30%;
+width: 50%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .product3text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 .Shopmenu {
-  float: left;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 10%;
-  background-color: #333;
-  border-color: orangered;
-  border-style: solid;
+float: left;
+list-style: none;
+margin: 0;
+padding: 0;
+width: 10%;
+background-color: #333;
+border-color: orangered;
+border-style: solid;
 }
 
 .Shopmenu li a {
-  display: block;
-  color: aliceblue;
-  padding: 8px 16px;
-  width: auto;
-  text-decoration: none;
+display: block;
+color: aliceblue;
+padding: 8px 16px;
+width: auto;
+text-decoration: none;
 }
 
 .Shopmenu li a:hover {
-  background-color: #111;
-  color: aliceblue;
+background-color: #111;
+color: aliceblue;
 }
 
 .shop{
-  background-image: url("Other\ images/wood.jpg");
-  height: 100%;
+background-image: url("Other\ images/wood.jpg");
+height: 100%;
 }
 
 .shop main{
-  height: 100%;
+height: 100%;
 }
 
 .shopproducts{
-  position: relative;
-  height: 30%;
-  width: 100%;
-  display:flex;
-  overflow: auto;
+height: 30%;
+width: 100%;
+display:flex;
+overflow: auto;
 }
 
 .shopproducts a{
-  text-decoration: none;
-  color: aliceblue;
-  width: -1000%;
+text-decoration: none;
+color: aliceblue;
+width: -1000%;
 }
 
 .shopproduct1 img{
 
-  margin-top: 0%;
-  margin-left: 120%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 95%;
-  width: 95%;
+margin-top: 0%;
+margin-left: 120%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 95%;
+width: 95%;
 }
 
 .shopproducts1{
-  margin-top: -100%;
-  float: left;
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+margin-top: -100%;
+float: left;
+text-align: center;
+color: aliceblue;
 }
 
 .shopproduct1text{
-  position: absolute;
-  bottom: 10%;
-  left: 21%;
-  width: 6%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 30%;
+left: 21%;
+width: 6%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .shopproduct1text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 .shopproduct2 img{
-  margin-top: 0%;
-  margin-left: 210%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 95%;
-  width: 95%;
+margin-top: 0%;
+margin-left: 210%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 95%;
+width: 95%;
 }
 
 .shopproducts2{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+text-align: center;
+color: aliceblue;
 }
 
 .shopproduct2text{
-  position: absolute;
-  bottom: 10%;
-  left: 49%;
-  width: 6%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 30%;
+left: 45%;
+width: 6%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .shopproduct2text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 .shopproduct4 img{
-  margin-top: 0%;
-  margin-left: 300%;
-  border-radius: 1%;
-  border-color: orangered;
-  border-style: solid;
-  height: 95%;
-  width: 95%;
+margin-top: 0%;
+margin-left: 300%;
+border-radius: 1%;
+border-color: orangered;
+border-style: solid;
+height: 95%;
+width: 95%;
 }
 
 .shopproducts4{
-  position: relative;
-  text-align: center;
-  color: aliceblue;
+text-align: center;
+color: aliceblue;
 }
 
 .shopproduct4text{
-  position: absolute;
-  bottom: 10%;
-  left: 76%;
-  width: 6%;
-  background-color: #333;
-  opacity: 0;
-  transition: ease-in-out 0.5s;
+position: absolute;
+bottom: 30%;
+left: 72%;
+width: 6%;
+background-color: #333;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 
 .shopproduct4text:hover{
-  opacity: 1;
+opacity: 1;
 }
 
 img{
-  color: black;
-  background-color: #333;
+color: black;
+background-color: #333;
 }
 
 form h1{
-  padding: 0;
-  margin: 0;
+padding: 0;
+margin: 0;
 }
 
 #buyproduct{
-  color: aliceblue;
-  font-family:"Bradley Hand", sans-serif;
-  text-align: center;
-  background-color: #333;
-  border-color: orangered;
-  border-style: solid;
-  border-radius: 1%;
-  width: 50%;
-  margin-left: 25%;
+color: aliceblue;
+font-family:"Bradley Hand", sans-serif;
+text-align: center;
+background-color: #333;
+border-color: orangered;
+border-style: solid;
+border-radius: 1%;
+width: 50%;
+margin-left: 25%;
 }
 .search{
-  border-color: orangered;
-  border-style: solid;
-  border-radius: 1%;
-  height: 3%;
-  margin-left: 80%;
-  margin-top: -2.5%;
+border-color: orangered;
+border-style: solid;
+border-radius: 1%;
+height: 3%;
+margin-left: 80%;
+margin-top: 1%;
 }
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px)
+{
+  .productinformation{
+    opacity: 0;
+    
+  }
+
+  header{
+    opacity: 0;
+    height: 0;
+  }
+  
+  .mobilenav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .mobilenav a {
+    color: white;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    position: relative;
+  }
+  
+  /* Style the hamburger menu */
+  .mobilenav a.icon {
+    background: black;
+    border-color: orangered;
+    border-style: solid;
+    border-radius: 1%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #111;
+    color: aliceblue;
+    font-family: "Bradley Hand", sans-serif;
+    text-align: center;
+  }
+
+  .computernav{
+    opacity: 0;
+    margin-top: -100%;
+  }
+
+  .mobilenav{
+    opacity: 1;
+    margin-top: 0;
+    border-color: orangered;
+    border-style: solid;
+    border-radius: 1%
+  }
+
+  .block{
+    margin-top: 15%;
+    height: 50%;
+    overflow: auto;
+    font-size: 75%
+  }
+
+  .icon{
+    opacity: 1;
+  }
+
+  .frontpageimage img{
+    width: 55%;
+    height: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .block .information{
+    opacity: 0;
+  }
+
+  .product1 img{
+    margin-top: 150%;
+    margin-left: 10%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 150%;
+  }
+
+  .product2 img{
+    margin-top: 150%;
+    margin-left: 90%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 150%;
+  }
+
+  .product3 img{
+    margin-top: 150%;
+    margin-left: -200%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 150%;
+  }
+
+  .product4 img{
+    margin-top: 150%;
+    margin-left: -60%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 150%;
+  }
+
+  .product1text{
+    opacity: 1;
+    bottom: 30%;
+  }
+
+  .product2text{
+    opacity: 1;
+    bottom: 30%;
+    left: 100%;
+  }
+
+  .product3text{
+    opacity: 1;
+    bottom: 30%;
+    left: -40%;
+  }
+
+  .product4text{
+    opacity: 1;
+    bottom: 30%;
+  }
+
+  .producttext{
+    height: 20%;
+    margin-top: 5%;
+    width: 70%;
+  }
+
+  .Shopmenu{
+    margin-top: 10%;
+    width: 20%;
+    position: relative;
+  }
+
+  .shopmenu li a{
+    padding: 16px 20px;
+    font-size: 200%;
+  }
+
+  .shopproducts{
+    margin-top: 5%;
+    height: 100%;
+  }
+
+  .shopproduct2 img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 25%;
+    width: 35%;
+  }
+
+  .shopproduct1 img{
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 30%;
+    height: 25%;
+    width: 35%;
+  }
+
+  .shopproduct4 img{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 30%;
+    height: 25%;
+    width: 35%;
+  }
+
+  .shopproduct1text{
+    opacity: 1;
+    left: 31%;
+    bottom: 66%;
+    width: 10%;
+    font-size: 200%;
+  }
+
+  .shopproduct2text{
+    opacity: 1;
+    width: 10%;
+    font-size: 200%;
+    bottom: 39%;
+    left: 31%;
+  }
+
+  .shopproduct4text{
+    opacity: 1;
+    bottom: 7%;
+    left: 31%;
+    width: 10%;
+    font-size: 200%;
+  }
+
+  #buyproduct{
+    font-size:  300%;
+    margin-top: 12%;
+    width: 80%;
+    margin-left: 12%;
+  }
+  
+  form :placeholder-shown{
+    font-size: 80%;
+    width: 50%;
+  }
+  
+  form input{
+    font-size: 80%;
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  
+  form select{
+    font-size: 80%;
+  }
+}
+
+
+
+
+@media  screen and (min-width: 0px) and (max-width: 450px) {
+  .productinformation{
+    opacity: 0;
+    
+  }
+
+  header{
+    opacity: 0;
+    height: 0;
+  }
+  
+  .mobilenav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .mobilenav a {
+    color: white;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .mobilenav a.icon {
+    background: black;
+    border-color: orangered;
+    border-style: solid;
+    border-radius: 1%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .mobilenav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #111;
+    color: aliceblue;
+    font-family: "Bradley Hand", sans-serif;
+    text-align: center;
+  }
+
+  .computernav{
+    opacity: 0;
+    margin-top: -100%;
+  }
+
+  .mobilenav{
+    opacity: 1;
+    margin-top: 0;
+    border-color: orangered;
+    border-style: solid;
+    border-radius: 1%
+  }
+
+  .block{
+    margin-top: 22%;
+    height: 50%;
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+
+  .block .frontpageimage{
+    opacity: 0;
+    width: 0%;
+  }
+
+  .icon{
+    opacity: 1;
+  }
+
+  .frontpageimage img{
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .block .Frontpagetext{
+    margin-top: -51%;
+    width: 100%;
+  }
+
+  .block .information{
+    opacity: 0;
+  }
+
+  .products{
+    
+  }
+
+  .product1 img{
+    margin-top: 1500%;
+    margin-left: 100%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 1000%;
+  }
+
+  .product2 img{
+    margin-top: 1500%;
+    margin-left: 1500%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 1000%;
+  }
+
+  .product3 img{
+    margin-top: 1500%;
+    margin-left: -800%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 1000%;
+  }
+
+  .product4 img{
+    margin-top: 1500%;
+    margin-left: 500%;
+    border-radius: 1%;
+    border-color: orangered;
+    border-style: solid;
+    height: 40%;
+    width: 1000%;
+  }
+
+  .product1text{
+    opacity: 1;
+    bottom: 50%;
+    left: 200%;
+  }
+
+  .product2text{
+    opacity: 1;
+    bottom: 50%;
+    left: 1800%;
+  }
+
+  .product3text{
+    opacity: 1;
+    bottom: 50%;
+    left: -500%;
+  }
+
+  .product4text{
+    opacity: 1;
+    bottom: 50000000%;
+    bottom: 50%;
+  }
+
+  .producttext{
+    height: 20%;
+    margin-top: 5%;
+    width: 1000%;
+    font-size: 100%;
+  }
+
+  .Shopmenu{
+    margin-top: 10%;
+    width: 20%;
+    position: relative;
+  }
+
+  .shopmenu li a{
+    padding: 16px 20px;
+    font-size: 200%;
+  }
+
+  .shopproducts{
+    margin-top: 5%;
+    height: 100%;
+  }
+
+  .shopproduct2 img{
+    margin-top: 50%;
+    margin-left: 20%;
+    height: 25%;
+    width: 100%;
+  }
+
+  .shopproduct1 img{
+    height: 25%;
+    width: 100%;
+  }
+
+  .shopproduct4 img{
+    margin-top: 500%;
+    margin-left: -80%;
+    height: 25%;
+    width: 100%;
+  }
+
+  .shopproduct1text{
+    opacity: 1;
+    left: 40%;
+    bottom: 75%;
+    width: 10%;
+    font-size: 200%;
+  }
+
+  .shopproduct2text{
+    opacity: 1;
+    width: 10%;
+    font-size: 200%;
+    bottom: 40%;
+    left: 40%;
+  }
+
+  .shopproduct4text{
+    opacity: 1;
+    left: 40%;
+    width: 10%;
+    font-size: 200%;
+  }
+
+  footer{
+    margin-bottom: 0%;
+  }
+
+  .fa-youtube{
+    margin-left: 5%;
+    font-size: 300%;
+    }
+    
+    .fa-twitter{
+    margin-left: -30%;
+    font-size: 300%;
+    }
+    
+    .fa-instagram{
+    margin-left: 5%;
+    font-size: 300%;
+    }
+    
+    .fa-facebook{
+      margin-left: 5%;
+    font-size: 300%;
+    }
+
+    #buyproduct{
+      font-size: 500%;
+      margin-top: 8%;
+      width: 80%;
+      margin-left: 12%;
+    }
+    
+    form :placeholder-shown{
+      font-size: 50%;
+      width: 50%;
+    }
+    
+    form input{
+      font-size: 50%;
+      width: 50%;
+      margin-bottom: 5%;
+    }
+    
+    form select{
+      font-size: 50%;
+    }
+    
+    
+}
+

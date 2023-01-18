@@ -5,6 +5,16 @@
         <link rel="stylesheet" href="Minisida.css">
         <script src="https://kit.fontawesome.com/38ab188424.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="Other images/guitaricon.png" type="image/x-icon">
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+          </script>
 
 
     </head>
@@ -21,19 +31,34 @@
         
         <nav>
 
-            <ul class="Navbar">
-                <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="Electric.html">Shop</a></li>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Home.html">Home</a></li>
-                <li class="search">
-                    <form>
-                        <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
-                    </form>
-                </li>
+    
 
-            </ul>
+            <div class="mobilenav">
+                <a href="#home" class="active">Marcus' Guitar Shop</a>
+                <div id="myLinks">
+                    <a href="Home.html">Home</a>
+                    <a href="Electric.html">Shop</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
 
+            <div class="computernav">
+                <ul class="Navbar">
+                    <li><a href="Home.html"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="Electric.html">Shop</a></li>
+                    <li class="search">
+                        <form>
+                            <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+                        </form>
+                    </li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </ul>
+            </div>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         </nav>
         <main>
@@ -77,10 +102,10 @@
         <footer>
 
             <div class="social-media">
-                <a href="https://twitter.com/Sveriges_Konung"><i class="fa-brands fa-twitter fa-5x" ></i></a>
-                <a href="https://www.youtube.com/watch?v=GL3hh5mmlZI"><i class="fa-brands fa-youtube fa-5x"></i></a>
-                <a href="https://www.instagram.com/kungahuset/"><i class="fa-brands fa-instagram fa-5x"></i></a>
-                <a href="https://www.facebook.com/Kungahuset/"><i class="fa-brands fa-facebook fa-5x"></i></a>
+                <a href="https://twitter.com/Sveriges_Konung"><i class="fa-brands fa-twitter" ></i></a>
+                <a href="https://www.youtube.com/watch?v=GL3hh5mmlZI"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/kungahuset/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/Kungahuset/"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </footer>
     
